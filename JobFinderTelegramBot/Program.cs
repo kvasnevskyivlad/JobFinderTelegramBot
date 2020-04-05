@@ -31,7 +31,7 @@ namespace JobFinderTelegramBot
             //    Console.WriteLine($"\n{new string('-', 25)}\n");
             //}
 
-            var bot = new TelegramBotClient("1218634931:AAGoCrVfv6neKITCAx4qIvnXZuRJ7n7rk4Q");
+            var bot = new TelegramBotClient("???");
             bot.OnMessage +=
                 async (sender, eventArgs) =>
                 {
