@@ -1,0 +1,40 @@
+{
+  "took": 0,
+  "start": 0,
+  "count": 0,
+  "total": 0,
+  "hasGeoCount": 0,
+  "errorMessage": "string",
+  "documents": [
+    {
+      "id": 0,
+      "name": "string",
+      "logo": "string",
+      "designBannerUrl": "string",
+      "designBannerFullUrl": "string",
+      "publicationType": "Undefined",
+      "date": "2020-04-05T16:34:43.845Z",
+      "dateTxt": "string",
+      "hot": true,
+      "salary": 0,
+      "cityName": "string",
+      "cityId": 0,
+      "notebookId": 0,
+      "companyName": "string",
+      "formApplyCustomUrl": "string",
+      "isLiked": true,
+      "isApply": true,
+      "applyDate": "2020-04-05T16:34:43.845Z",
+      "distanceText": "string",
+      "latitude": 0,
+      "longitude": 0,
+      "shortDescription": "string",
+      "badges": [
+        {
+          "id": 0,
+          "name": "string"
+        }
+      ]
+    }
+  ]
+}
