@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using JobFinderTelegramBot.Models.Rabota.UA;
+﻿using JobFinderTelegramBot.Models.Rabota.UA;
 
-namespace JobFinderTelegramBot.Models
+namespace JobFinderTelegramBot.Models.Vacancies
 {
     public class Vacancy
     {

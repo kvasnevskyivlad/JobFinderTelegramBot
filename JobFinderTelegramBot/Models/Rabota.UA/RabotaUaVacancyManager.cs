@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using JobFinderTelegramBot.Models.Vacancies;
 using Newtonsoft.Json;
 using RestSharp;
 

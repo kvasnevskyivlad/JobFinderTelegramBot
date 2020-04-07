@@ -53,22 +53,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Models\IVacancyManager.cs" />
+    <Compile Include="Models\Telegram\IJobFinderBotManager.cs" />
+    <Compile Include="Models\Telegram\JobFinderBotManagerModel.cs" />
+    <Compile Include="Models\Vacancies\IVacancyManager.cs" />
     <Compile Include="Models\Rabota.UA\RabotaUaVacanciesBasic.cs" />
     <Compile Include="Models\Rabota.UA\RabotaUaDocumentShort.cs" />
     <Compile Include="Models\Rabota.UA\RabotaUaVacancies.cs" />
     <Compile Include="Models\Rabota.UA\RabotaUaDocumentFull.cs" />
     <Compile Include="Models\Rabota.UA\RabotaUaVacancyManager.cs" />
-    <Compile Include="Models\Vacancy.cs" />
+    <Compile Include="Models\Vacancies\Vacancy.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <Content Include="Request.json">
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BotToken.tkn">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
